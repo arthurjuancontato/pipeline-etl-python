@@ -1,2 +1,32 @@
-.venv
-__pycache__ 
+# Ambientes virtuais e cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Configurações privadas e segredos
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Arquivos gerados localmente; output.html já é versionado
+dados_validados.csv
+build/
+dist/
+*.egg-info/
