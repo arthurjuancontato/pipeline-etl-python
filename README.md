@@ -1,5 +1,7 @@
 # Pipeline ETL com Python
 
+**Autor: Arthur Juan.**
+
 Análise exploratória e validação de dados de campanhas publicitárias em CSV com **Pandas**, **Pydantic**, **YData Profiling** e **Streamlit**.
 
 O projeto lê arquivos locais, valida registros e permite exportar um CSV validado. Também gera um relatório HTML com estatísticas, valores ausentes e correlações.
