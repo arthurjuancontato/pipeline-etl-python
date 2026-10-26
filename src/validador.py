@@ -2,7 +2,7 @@ from typing import Optional
 from pydantic import BaseModel, Field
 
 
-class User(BaseModel):
+class PlanilhaVendas(BaseModel):
     Organizador: int = Field(..., description="Identificador do organizador")
     Ano_Mes: str = Field(..., description="Ano e mês do registro")
     Dia_da_Semana: str = Field(..., description="Dia da semana correspondente à data")
