@@ -1,5 +1,7 @@
 # A função do Pandas é ler o CSV e transforma-lo em dataframe
 import pandas as pd
+
+# Pandas Profile (ydata_profiling)
 from ydata_profiling import ProfileReport
 
 df = pd.read_csv('data.csv')
